@@ -6,4 +6,4 @@ services:
     restart: always
     image: mprather1/docker-test
     volumes: 
-      - ./data/test:/core
+      - ./data/test:/home/core
