@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  docker-test:
+    container_name: test
+    restart: always
+    image: mprather1/docker-test
+    volumes: 
+      - ./data/test:/core
